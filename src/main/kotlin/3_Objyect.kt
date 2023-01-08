@@ -1,6 +1,6 @@
 fun main(args: Array<String>) {
 
-    //
+    /* String */
     val str: String = "Kotlin is fun!"
     println(str.length) //文字列の長さを返すプロパティ
 
@@ -34,4 +34,6 @@ fun main(args: Array<String>) {
     //明示的な型の指定を省略もできる
     val strs2 =arrayOf("foo","bar","bat")
     println(strs2[0])
+
+
 }
